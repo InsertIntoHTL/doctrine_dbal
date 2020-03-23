@@ -1,0 +1,17 @@
+{
+    "name": "leoso/sql_save_load",
+    "description": "SQL Save Load",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Leo Sollereder",
+            "email": "5125@htl.rennweg.at"
+        }
+    ],
+    "require": {
+        "doctrine/dbal": "^2.10"
+    },
+    "autoload": {
+        "psr-4": { "InsertIntoHTL\\sql_save_load\\": "src" }
+    }
+}
